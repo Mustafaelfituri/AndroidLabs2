@@ -1,0 +1,31 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/plant_item_image"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/plant_item_image_height"
+        android:contentDescription="@string/ally_plant_item_image"
+        android:scaleType="centerCrop"
+        app: imageFromUrl="@{plant.imageUrl}"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTop0f="parent" />
+
+    <TextView
+        android:id="@+id/plant_item_title"
+        android:layout_width="0dp"
+        android:layout_marginBottom="@dimen/margin_normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/plant_item_image"
+        app:layout_constraintBottom_toBottom0f="parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:text="@{plant.name}"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:gravity="center_horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Tomato"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

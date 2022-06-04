@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/musta/AndroidLabs/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/musta/AndroidLabs/app/src/main/res/drawable/americanflag.xml" value="0.207" />
+        <entry key="..\:/Users/musta/AndroidLabs/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/musta/AndroidLabs/app/src/main/res/layout/activity_main_contraint.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/musta/AndroidLabs/app/src/main/res/layout/activity_main_grid.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/musta/AndroidLabs/app/src/main/res/layout/activity_main_linear.xml" value="0.5" />
       </map>
     </option>
   </component>
